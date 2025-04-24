@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercedes-Benz</title>
+    <!-- Logo -->
+    <link rel="icon" href="/images/merc-logo.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- jQuery (required) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <div id="header-nav" class="navigation-container">
+      <div class="left-block">
+        <ul>
+          <li><a href="#">ラインナップ</a></li>
+          <li><a href="#">購入検討</a></li>
+          <li><a href="#">サービス</a></li>
+          <li><a href="#">ブランド</a></li>
+        </ul>
+      </div>
+      <div class="image-logo">
+        <img src="./images/merc-logo.png" alt="not dound" />
+      </div>
+      <div class="right-block">
+        <ul>
+          <li><a href="#">プライバシー</a></li>
+          <li>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class="login-group">
+            <a href="#"
+              ><div class="login-group">
+                <div class="icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <p>ログイン</p>
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 幕閉じたNavigation -->
+    <!-- Banner -->
+    <div class="banner-container">
+      <div class="content-block">
+        <div class="title-block">
+          <h1>Eクラスがが体現する</h1>
+          <h1>伝統と革新</h1>
+        </div>
+        <p>Eクラスのスペシャリスト</p>
+        <button>詳しくみる</button>
+      </div>
+      <div class="unit">
+        <div class="merc">Mercedes-Benz</div>
+        <div class="amg"></div>
+        <div class="maybach"></div>
+      </div>
+    </div>
+    <!-- End Banner -->
+    <!-- Pickup model -->
+    <div class="pickup-container">
+      <h1>ピックアップモデル</h1>
+      <div class="pickup-group">
+        <div class="flag gclass-group">
+          <div class="image-content">
+            <img src="./images/g-class.png" alt="Not Found" />
+          </div>
+          <div class="item-content">
+            <h2>Mercedes-Benz G-Class Past II Future</h2>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="flag glcclass-group">
+          <div class="image-content">
+            <img src="./images/glc.png" alt="Not Found" />
+          </div>
+          <div class="item-content">
+            <p>GLCに新しい選択肢「GLC Core」が登場。</p>
+            <h2>
+              GLC 220 d 4MATIC Core (ISG) / GLC 220 d 4MATIC Coupé Core (ISG)
+            </h2>
+            <div class="btn-group">
+              <button>GLC</button>
+              <button>GLC Coupé</button>
+            </div>
+          </div>
+        </div>
+        <div class="flag eclass-group">
+          <div class="image-content">
+            <img src="./images/eclass.png" alt="Not Found" />
+          </div>
+          <div class="item-content">
+            <p>Eを覆す、E。</p>
+            <h2>The E-Class Sedan</h2>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="flag eqs-group">
+          <div class="image-content">
+            <img src="./images/eqs.png" alt="Not Found" />
+          </div>
+          <div class="item-content">
+            <p>電気自動車に、最高峰を。</p>
+            <h2>The new EQS</h2>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="flag aclass-group">
+          <div class="image-content">
+            <img src="./images/aclass.png" alt="Not Found" />
+          </div>
+          <div class="item-content">
+            <p>格別な毎日を。</p>
+            <h2>The A-Class</h2>
+            <div class="btn-group-a">
+              <button>オンラインショールーム</button>
+              <button>詳しく見る</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End pickup -->
+    <!-- モデルラインアップ -->
+    <div class="model-container">
+      <h1>Mercedes-Benz モデルラインアップ</h1>
+      <div class="btn-group">
+        <button>全モデルを見る</button>
+        <button>EQモデルを見る</button>
+      </div>
+      <div class="car-group">
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Sedan</h3>
+          </div>
+          <img src="./images/a-car.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>SUV</h3>
+          </div>
+
+          <img src="./images/suv.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Stationwagon</h3>
+          </div>
+          <img src="./images/state-wa.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Compact</h3>
+          </div>
+
+          <img src="./images/compat.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Coupe</h3>
+          </div>
+
+          <img src="./images/coupe.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Cabriolet/Roadster</h3>
+          </div>
+
+          <img src="./images/cabriolet.png" alt="Not Found" />
+        </div>
+        <div class="car-item">
+          <div class="car-describe">
+            <p>モデルの詳細を見る</p>
+            <h3>Minivan</h3>
+          </div>
+          <img src="./images/minivan.png" alt="Not Found" />
+        </div>
+      </div>
+    </div>
+    <!-- モデルラインアップEND -->
+    <!-- オンラインショールームー -->
+    <div class="online-showroom">
+      <h1>オンラインショールーム</h1>
+      <div class="item-group">
+        <div class="online-item">
+          <img src="./images/a-180.png" alt="Not Found" />
+          <div class="wrapper-content">
+            <p class="sell-group">
+              <i class="fa-solid fa-star"></i>
+            </p>
+            <h3>A 200 d Sedan</h3>
+            <div class="content-1">
+              <p class="gas">
+                <span>
+                  <i class="fa-solid fa-gas-pump"></i>
+                </span>
+                <span> ディーゼル </span>
+                <span> <i class="fa-solid fa-tag"></i></span>
+                <span>オートマチックトランスミッション</span>
+              </p>
+            </div>
+            <div class="content2">
+              <div class="mecha">
+                <p class="info">
+                  メーカー希望小売価格: [注1]ページ下部をご確認ください。
+                </p>
+                <p class="price">6,372,000 円</p>
+              </div>
+              <div class="maichuki">
+                <p>月々（税込): 詳細は下記の？をクリック</p>
+                <p>
+                  <span> 51,040 円 </span>
+                  <i class="fa-solid fa-tag"></i>
+                </p>
+              </div>
+            </div>
+            <div class="content3">
+              <p><i class="fa-solid fa-check"></i><span>AMGﾗｲﾝﾊﾟｯｹｰｼﾞ</span></p>
+              <p><i class="fa-solid fa-check"></i><span>360°ｶﾒﾗｼｽﾃﾑ</span></p>
+              <p>
+                <i class="fa-solid fa-check"></i
+                ><span>ｲﾊﾟﾉﾗﾐｯｸｽﾗｲﾃﾞｨﾝｸﾞﾙｰﾌ</span>
+              </p>
+            </div>
+            <button>オンラインショールームはこちら​</button>
+          </div>
+        </div>
+        <div class="online-item">
+          <img src="./images/glc220.png" alt="Not Found" />
+          <div class="wrapper-content">
+            <p class="sell-group">
+              <span
+                ><i class="fa-solid fa-tag"></i> 新型モデル（GLC Coupe）
+              </span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </p>
+
+            <h3>A 200 d Sedan</h3>
+            <p class="gas">
+              <span>
+                <i class="fa-solid fa-gas-pump"></i>
+              </span>
+              <span> ディーゼル </span>
+              <span> <i class="fa-solid fa-tag"></i></span>
+              <span>オートマチックトランスミッション</span>
+            </p>
+            <div class="content2">
+              <div class="mecha">
+                <p class="info">
+                  メーカー希望小売価格: [注1]ページ下部をご確認ください。
+                </p>
+                <p class="price">6,372,000 円</p>
+              </div>
+              <div class="maichuki">
+                <p>月々（税込): 詳細は下記の？をクリック</p>
+                <p>
+                  <span> 51,040 円 </span>
+                  <i class="fa-solid fa-tag"></i>
+                </p>
+              </div>
+            </div>
+            <div class="content3">
+              <p><i class="fa-solid fa-check"></i><span>AMGﾗｲﾝﾊﾟｯｹｰｼﾞ</span></p>
+              <p>
+                <i class="fa-solid fa-check"></i
+                ><span>ﾊﾟﾉﾗﾐｯｸｽﾗｲﾃﾞｨﾝｸﾞﾙｰﾌ</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i><span>ｲﾙﾐﾈｰﾃｯﾄﾞｽﾃｯﾌﾟｶﾊﾞｰ</span>
+              </p>
+            </div>
+            <button>オンラインショールームはこちら​</button>
+          </div>
+        </div>
+        <div class="online-item">
+          <img src="./images/eqe350.png" alt="Not Found" />
+          <div class="wrapper-content">
+            <p class="sell-group">
+              <span
+                ><i class="fa-solid fa-tag"></i> 新型モデル（GLC Coupe）
+              </span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </p>
+            <h3>A 20ass0 d Sedan</h3>
+            <div class="content-1">
+              <p class="gas">
+                <span>
+                  <i class="fa-solid fa-gas-pump"></i>
+                </span>
+                <span> ディーゼル </span>
+                <span> <i class="fa-solid fa-tag"></i></span>
+                <span>オートマチックトランスミッション</span>
+              </p>
+            </div>
+            <div class="content2">
+              <div class="mecha">
+                <p class="info">
+                  メーカー希望小売価格: [注1]ページ下部をご確認ください。
+                </p>
+                <p class="price">6,372,000 円</p>
+              </div>
+              <div class="maichuki">
+                <p>月々（税込): 詳細は下記の？をクリック</p>
+                <p>
+                  <span> 51,040 円 </span>
+                  <i class="fa-solid fa-tag"></i>
+                </p>
+              </div>
+            </div>
+            <div class="content3">
+              <p><i class="fa-solid fa-check"></i><span>AMGﾗｲﾝﾊﾟｯｹｰｼﾞ</span></p>
+              <p>
+                <i class="fa-solid fa-check"></i
+                ><span>ﾊﾟﾉﾗﾐｯｸｽﾗｲﾃﾞｨﾝｸﾞﾙｰﾌ</span>
+              </p>
+              <p>
+                <i class="fa-solid fa-check"></i><span>ｲﾙﾐﾈｰﾃｯﾄﾞｽﾃｯﾌﾟｶﾊﾞｰ</span>
+              </p>
+            </div>
+            <button>オンラインショールームはこちら​</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- オンラインショールームーEND -->
+    <!-- Sagasu -->
+    <div class="sagasu-container">
+      <div class="content">
+        <h3>掲載車両一覧はこちら</h3>
+        <p>
+          オンラインショールームで、あなたのお気に入りのモデルをみつけてください。
+        </p>
+        <p></p>
+      </div>
+      <button>オンラインショールームで車両を探す</button>
+    </div>
+    <!-- End Sagasu -->
+    <!-- Topics -->
+    <div class="topic-container">
+      <h1>トピックス</h1>
+      <div class="owl-carousel">
+        <div class="carousel-item">
+          <div class="image-wrapper">
+            <img src="./images/topic-image1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>【全商品対象 5%OFF】デジタルプロダクト スプリングキャンペーン</h3>
+            <p>今なら期間限定でデジタルプロダクト全商品を5%OFFでご提供いたします。あなたのクルマのポテンシャルを最大限に活かす、デジタルプロダクトをぜひご活用ください。</p>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-wrapper">
+            <img src="./images/topic-image2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>電気自動車のご購入サポート</h3>
+            <p>電気自動車が初めての方でも安心してお乗りになれる残価保証型のプランです。
+              補助金や税制優遇についても掲載しております。</p>
+              <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-wrapper">
+            <img src="./images/topic-image3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>インターネット上における事実と異なる不正確な情報にご注意ください。</h3>
+            <p>インターネット上においてメルセデス・ベンツに関する事実と異なる不正確な情報を含む動画の投稿が確認されております。正しい情報については、公式サイトやSNS、正規販売店にてご案内させていただいております。</p>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image-wrapper">
+            <img src="./images/topic-image4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>気になる車両を探すなら、オンラインショールームから。</h3>
+            <p>
+              掲載されている車両の中からあなたのお気に入りの一台をセレクトして、優先的に商談が進められる「Web 商談予約」や「お問い合わせ」をすることができます。
+            </p>
+            <button>詳しく見る</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Introduce -->
+    <div class="introduce-container">
+      <div class="content">
+        <div class="content-wrapper">
+          <h2>Because it's Mercedes-Benz.</h2>
+          <p>メルセデス・ベンツが他とは一線を画す理由を発見してください。</p>
+          <button>詳しく見る</button>
+        </div>
+      </div>
+      <div class="image-box">
+        <img src="./images/content-ava1.png" alt="Not Found" />
+      </div>
+      <div class="image-box">
+        <img src="./images/content-ava2.png" alt="Not Found" />
+      </div>
+      <div class="content">
+        <div class="content-wrapper special">
+          <h2>MANUFAKTUR</h2>
+          <p>
+            MANUFAKTURは、メルセデス・ベンツブランドを横断する独自のエクステリアと上質なインテリアの特別仕様装備です。
+            精密に製作された、特別で価値のあるモデルをお届けします。
+          </p>
+          <button>詳しく見る</button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content-wrapper">
+          <h2>Mercedes-Benz LIVE!</h2>
+          <p>
+            試乗記、新型モデル紹介、ドライブルート紹介など、メルセデス・ベンツにまつわる様々な情報を発信。メルセデス・ベンツのある生活の豊かさと楽しさを伝えるメディア。
+            メルセデス・ベンツが参戦しているモータースポーツの最新情報や新車情報についても速報予定。
+          </p>
+          <button>詳しく見る</button>
+        </div>
+      </div>
+      <div class="image-box">
+        <img src="./images/content-ava3.png" alt="Not Found" />
+      </div>
+    </div>
+    <!-- End Introduce -->
+    <!-- Services -->
+    <div class="service-container">
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.652 24.796">
+          <path
+            d="M9.382 0L2.899 6.483l10.77-.003L-.227 20.376l4.504 4.503 13.895-13.896-.003 10.77 6.483-6.483V0z"
+          ></path>
+        </svg>
+        <div class="content">
+          <h3>新車ご購入サポート</h3>
+          <p>対象モデルに様々なご購入サポートをご用意</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.6 73">
+          <path
+            d="M0 0h50.6v73H0V0zm42.5 20.6V8.2H8.1v12.5l34.4-.1zM15.9 39.5v-7.7H8.1v7.7h7.8zm13.3 0v-7.7h-7.6v7.7h7.6zm13.3 0v-7.7h-7.6v7.7h7.6zm-26.6 12v-7.6H8.1v7.6h7.8zm13.3 0v-7.6h-7.6v7.6h7.6zm13.3 0v-7.6h-7.6v7.6h7.6zM15.9 63.3v-7.4H8.1v7.4h7.8zm13.3 0v-7.4h-7.6v7.4h7.6zm13.3 0v-7.4h-7.6v7.4h7.6z"
+          ></path>
+        </svg>
+        <div class="content">
+          <h3>見積シミュレーション</h3>
+          <p>各モデルの見積をオンラインシミュレーション</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.7 66.2">
+          <path
+            d="M68.6 43.9v8.6H30.2l-18.9-43L0 8.6V0h17.4l4.1 9.4h53.2l-3.9 27.4H33.7l2.7 7.1h32.2zm-1.8-27.3h-42l2 4.5h39.3l.7-4.5zm-38.3 8.5l1.9 4.5h34.4l.7-4.5h-37zM40 61.3c0 2.7-2.2 4.9-4.9 4.9s-4.9-2.2-4.9-4.9 2.2-4.8 4.9-4.8 4.9 2.1 4.9 4.8zm28.6 0c0 2.7-2.1 4.9-4.8 4.9-2.8 0-4.9-2.2-4.9-4.9s2.1-4.8 4.9-4.8c2.7 0 4.8 2.1 4.8 4.8z"
+          ></path>
+        </svg>
+        <div class="content">
+          <h3>オンラインショールーム</h3>
+          <p>いつでもどこからでもお目当てのモデルをセレクト</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.2 73.1">
+          <path
+            d="M54.031 58.827c-5.235-3.23-11.028-4.901-17.377-4.901-6.349 0-12.142 1.671-17.377 5.013 5.124 3.899 10.916 5.904 17.377 5.904 6.572-.001 12.364-2.006 17.377-6.016zm4.455-4.456c4.01-4.901 6.349-11.028 6.349-17.711-.78-.78-1.782-1.114-3.23-1.114-3.453-.446-8.911 9.468-8.689 12.81 0 2.116.78 3.119 2.896 4.456 2.118 1.225 3.009 1.671 2.674 1.559zm-38.207-6.015c.111-2.228-5.57-13.367-8.689-12.81-1.448 0-2.451.334-3.23 1.114 0 6.572 2.339 12.81 6.349 17.711-.334.111.557-.334 2.673-1.56 2.117-1.336 2.897-2.339 2.897-4.455zm16.375-18.38c-3.008 0-5.235 2.228-5.235 5.236s2.228 5.235 5.235 5.235c3.008 0 5.235-2.228 5.235-5.235s-2.228-5.236-5.235-5.236zm-27.292-.557c8.354-4.567 17.489-6.906 27.291-6.906 9.691 0 18.825 2.228 27.18 6.795-1.671-6.127-5.013-11.139-10.025-15.038-5.013-3.899-10.694-5.904-17.154-5.904-12.922 0-24.395 9.023-27.292 21.053zm27.292 43.777C15.378 73.642-.329 54.817.005 36.548-.329 19.06 14.598-.545 36.654.012 58.932-.545 73.413 19.728 73.19 36.548c.557 22.279-19.716 36.983-36.536 36.648z"
+          ></path>
+        </svg>
+        <div class="content">
+          <h3>試乗リクエスト</h3>
+          <p>オンラインでご希望のモデルの試乗リクエストを簡単にお申込み</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+      <div class="item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.4 46">
+          <path
+            d="M32.9 21.1.9 0h64.6L32.9 21.1zM0 4.8l32.9 21.8L66.4 4.7V46H0V4.8z"
+          ></path>
+        </svg>
+        <div class="content">
+          <h3>ご購入相談</h3>
+          <p>プロダクトエキスパートがいる正規販売店の来店予約</p>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+    <!-- End Services -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="top">
+          <a href="#header-nav">
+            <i class="fa-solid fa-angle-up"></i>
+          </a>
+          <a href="#header-nav"> トップに戻る </a>
+        </div>
+        <div class="mail-new">
+          <div class="content">
+            <h3>Mercedes-Benz メールニュース配信登録</h3>
+            <p>
+              メルセデス・ベンツの最新情報をいち早くお届け！新車/中古車の情報、サービスのご案内、キャンペーンやイベント情報など、お役立ていただけるコンテンツをお届けします。
+            </p>
+          </div>
+          <button>メールニュース配信登録</button>
+        </div>
+        <div class="footer-item">
+          <div class="line-up">
+            <h3>ラインアップ</h3>
+            <p><span>電気自動車</span></p>
+          <p><span>プラグインハイブリッド</span></p>
+          <p><span>SUV</span></p>
+          <p><span>Sedan</span></p>
+          <p><span>Mercedes-AMG</span></p>
+          <p><span>Mercedes-Maybach</span></p>
+          </div>
+          <div class="buy">
+            <h3>購入検討</h3>
+            <p><span>新車ご購入サポート</span></p>
+            <p> <span>オンラインショールーム</span></p>
+           <p> <span>認定中古車検索</span></p>
+           <p><span>ディーラー検索</span></p>
+            <p><span>試乗リクエスト</span></p>           
+            <p><span>ご購入相談</span></p>
+            <p><span>月額シミュレーション</span></p>
+            <p><span>法人のお客様へ</span></p>
+            <p><span>デジタルプロダクト</span></p>
+            <p><span>プライスリスト</span></p>
+          </div>
+          <div class="service">
+            <h3>サービス</h3>
+            <p><span>サービス入庫リクエスト</span></p>
+            <p><span>各種リクエスト/お問い合わせ</span></p>
+            <p><span>リコール情報</span></p>
+            <p><span>カタログ一覧</span></p>
+            <p><span>Mercedes-Benz Tips</span></p>
+            <p><span>取扱説明書</span></p>
+          </div>
+          <div class="info">
+            <h3>企業情報</h3>
+            <p><span>会社概要</span></p>
+            <p><span>お詫びとお知らせ</span></p>
+            <p><span>スポンサーシップ / CSR</span></p>
+            <p><span>採用情報</span></p>
+            <p><span>サステナビリティ</span></p>
+            <p><span>よくあるご質問 (FAQ)</span></p>
+            <p><span>プレスリリース</span></p>
+          </div>
+          <div class="fake"></div>
+          <div class="fake"></div>
+        </div>
+        <div class="social-info">
+          <div class="content">
+            <p class="child-content-1">
+              <span>©2025 Mercedes-Benz Japan. All rights reserved.</span>
+              <span>プライバシーポリシー/個人情報の取り扱いについて</span>
+            </p>
+            <p class="child-content-2">
+              <span> ご利用条件/反社会勢力に対する基本方針 </span>
+              <span>クッキーの設定</span>
+            </p>
+          </div>
+          <div class="social-icon">
+            <a href="#"> <i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#">  <i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="note">
+          <p>[注1] 車両価格について</p>
+          <p>
+            モデル名の下の車両価格は消費税込みのメーカー希望小売価格(参考価格)です。本参考価格には、車両本体およびメーカー装備品の価格が含まれます。保険料、税金、自動車リサイクル料金、その他登録に伴う費用、キャンペーン適用などによる値引き金額等は含まれません。販売価格は販売店が独自に定めていますので、最終的なお支払額は、販売店でご確認ください。
+            [1]【適用条件】適用期間内に対象新車のご登録が完了し、また「注意事項」に記載された内容にご同意をいただくとともにその条件を満たしていること。【適用期間】4月1日～6月30日**本特典は予告なく終了または変更する場合があります。
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End footer -->
+    <script src="./index.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        stagePadding: 50,
+        margin: 20,
+        nav: true, // Show prev/next arrows
+        dots: true, // Enable navigation dots
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
