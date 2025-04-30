@@ -176,6 +176,10 @@ h2{
     color:white;
     font-weight: bold;
 }
+.item-content button:hover{
+    cursor: pointer;
+    background-color: #005ba1;
+}
 .flag:hover .image-content img{
     transform: scale(1.1);
 }
